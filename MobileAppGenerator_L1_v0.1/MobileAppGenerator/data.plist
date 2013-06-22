@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>activation_firm_description</key>
+	<true/>
+	<key>firm_description</key>
+	<string>ATOS Worldline is a leader in end-to-end services for critical electronic transactions</string>
+	<key>default_firm_description</key>
+	<string>Enter here the description of your company</string>
+	<key>activation_application_title</key>
+	<true/>
+	<key>application_title</key>
+	<string>ATOS Apps</string>
+	<key>default_application_title</key>
+	<string>Enter here the title of your app</string>
+	<key>activation_firm_logo</key>
+	<true/>
+	<key>firm_logo</key>
+	<string>logo.jpg</string>
+	<key>default_firm_logo</key>
+	<string>default_logo.png</string>
+	<key>activation_geolocation</key>
+	<true/>
+	<key>geolocation</key>
+	<string>Geolocation</string>
+	<key>second_label_geolocation</key>
+	<string>Apple maps</string>
+	<key>image_geolocation</key>
+	<string>geolocation12.png</string>
+	<key>activation_test</key>
+	<true/>
+	<key>test</key>
+	<string>TestService</string>
+	<key>second_label_test</key>
+	<string>Test description</string>
+	<key>image_test</key>
+	<string>test.jpg</string>
+	<key>default_image</key>
+	<string>default_logo.png</string>
+</dict>
+</plist>

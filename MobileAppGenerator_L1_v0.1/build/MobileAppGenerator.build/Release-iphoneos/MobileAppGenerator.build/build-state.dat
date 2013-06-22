@@ -1,0 +1,734 @@
+TMobileAppGenerator
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Info.plist MobileAppGenerator/MobileAppGenerator-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/MobileAppGenerator.app/ResourceRules.plist
+cProcessPCH /var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-ayariudscojbnydcrkzlatdfvabu/MobileAppGenerator-Prefix.pch.pth MobileAppGenerator/MobileAppGenerator-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-aaoecoeemhhborajsdzvjsvylmon/MobileAppGenerator-Prefix.pch.pth MobileAppGenerator/MobileAppGenerator-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/main.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/AppDelegate.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/HomeViewController.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/HomeViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/GeolocalisationServiceViewController.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/GeolocalisationServiceViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/PListManager.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/PListManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/main.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/AppDelegate.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/MobileAppGenerator normal armv7
+cCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/HomeViewController.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/HomeViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/GeolocalisationServiceViewController.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/GeolocalisationServiceViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/PListManager.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/PListManager.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/MobileAppGenerator normal armv7s
+cCreateUniversalBinary /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/MobileAppGenerator normal "armv7 armv7s"
+cGenerateDSYMFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app.dSYM /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/MobileAppGenerator
+cCopyStringsFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/en.lproj/InfoPlist.strings MobileAppGenerator/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default.png MobileAppGenerator/Default.png
+cCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default@2x.png MobileAppGenerator/Default@2x.png
+cCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default-568h@2x.png MobileAppGenerator/Default-568h@2x.png
+cCompileStoryboard /Users/pst/src/MobileAppGenerator/MobileAppGenerator/en.lproj/MainStoryboard.storyboard
+cCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/first.png MobileAppGenerator/first.png
+cCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/first@2x.png MobileAppGenerator/first@2x.png
+cCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/second.png MobileAppGenerator/second.png
+cCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/second@2x.png MobileAppGenerator/second@2x.png
+cCpResource service.ico build/Release-iphoneos/MobileAppGenerator.app/service.ico
+cCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/enterprise.png enterprise.png
+cCpResource contact.ico build/Release-iphoneos/MobileAppGenerator.app/contact.ico
+cCpResource home.ico build/Release-iphoneos/MobileAppGenerator.app/home.ico
+cCopyPlistFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/data.plist MobileAppGenerator/data.plist
+cProcessProductPackaging "/Users/pst/Library/MobileDevice/Provisioning Profiles/15349611-F767-4C73-B6CC-ECC0486F711D.mobileprovision" /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/pst/Library/MobileDevice/Provisioning Profiles/15349611-F767-4C73-B6CC-ECC0486F711D.mobileprovision" /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/embedded.mobileprovision
+cTouch /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator.xcent
+cCodeSign /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app
+cValidate /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000050ED385D0000000000000110
+t1357723741
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c0000000051913C7F00000000000001A7
+t1368472703
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c0000000051913C7F00000000000001E5
+t1368472703
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000051913C830000000000322700
+t1368472707
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051913C85000000000062AD10
+t1368472709
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050CE9F7700000000000015F7
+t1355718519
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c0000000051913C8500000000001AABB0
+t1368472709
+s1747888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000051913C870000000000000E8D
+t1368472711
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000051913C8A00000000011BCDF0
+t1368472714
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
+c0000000051913C940000000000001B73
+t1368472724
+s7027
+
+N/Users/pst/Library/MobileDevice/Provisioning Profiles/15349611-F767-4C73-B6CC-ECC0486F711D.mobileprovision
+c00000000509A36C1000000000000EE4C
+t1352283841
+s61004
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/AppDelegate.m
+c0000000051A6FC2100000000000007D3
+t1369898017
+s2003
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/Default-568h@2x.png
+c00000000515C9E6200000000000048A2
+t1365024354
+s18594
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/Default.png
+c00000000515C9E62000000000000198C
+t1365024354
+s6540
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/Default@2x.png
+c00000000515C9E620000000000003EEB
+t1365024354
+s16107
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/GeolocalisationServiceViewController.m
+c0000000051ADA51D000000000000086F
+t1370334493
+s2159
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/HomeViewController.m
+c0000000051AEEE220000000000000BA7
+t1370418722
+s2983
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/MobileAppGenerator-Prefix.pch
+c0000000051A6FC210000000000000153
+t1369898017
+s339
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/PListManager.m
+c0000000051AE0EAA00000000000006D6
+t1370361514
+s1750
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/data.plist
+c0000000051AE056300000000000002EF
+t1370359139
+s751
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/en.lproj/InfoPlist.strings
+c0000000051A6FC21000000000000002D
+t1369898017
+s45
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/en.lproj/MainStoryboard.storyboard
+c0000000051AEE6C90000000000005EDE
+t1370416841
+s24286
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/first.png
+c00000000515C9E6200000000000000FD
+t1365024354
+s253
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/first@2x.png
+c00000000515C9E620000000000000192
+t1365024354
+s402
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/main.m
+c0000000051A6FC21000000000000014C
+t1369898017
+s332
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/second.png
+c00000000515C9E620000000000000080
+t1365024354
+s128
+
+N/Users/pst/src/MobileAppGenerator/MobileAppGenerator/second@2x.png
+c00000000515C9E620000000000000082
+t1365024354
+s130
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator.xcent
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/GeolocalisationServiceViewController.o
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/HomeViewController.o
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/MobileAppGenerator
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/MobileAppGenerator.LinkFileList
+c0000000051AEEF1200000000000002E0
+t1370418962
+s736
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/PListManager.o
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/AppDelegate.o
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/GeolocalisationServiceViewController.o
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/HomeViewController.o
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/MobileAppGenerator
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/MobileAppGenerator.LinkFileList
+c0000000051AEEF1200000000000002E5
+t1370418962
+s741
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/PListManager.o
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app.dSYM
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default.png
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default@2x.png
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Info.plist
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/MobileAppGenerator
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/PkgInfo
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/ResourceRules.plist
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/contact.ico
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/data.plist
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/en.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/enterprise.png
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/first.png
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/first@2x.png
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/home.ico
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/second.png
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/second@2x.png
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/service.ico
+t2
+s0
+
+N/Users/pst/src/MobileAppGenerator/contact.ico
+c000000004A704B8400000000000010BE
+t1248873348
+s4286
+
+N/Users/pst/src/MobileAppGenerator/enterprise.png
+c0000000051A7135A0000000000007A32
+t1369903962
+s31282
+
+N/Users/pst/src/MobileAppGenerator/home.ico
+c0000000051A7498000000000000026EE
+t1369917824
+s9966
+
+N/Users/pst/src/MobileAppGenerator/service.ico
+c0000000051A70B8E00000000000005DF
+t1369901966
+s1503
+
+N/var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-aaoecoeemhhborajsdzvjsvylmon/MobileAppGenerator-Prefix.pch.pth
+t1369924450
+s4605452
+
+N/var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-ayariudscojbnydcrkzlatdfvabu/MobileAppGenerator-Prefix.pch.pth
+t1369924450
+s4605408
+
+NMobileAppGenerator/MobileAppGenerator-Info.plist
+c0000000051A8741B000000000000059C
+t1369994267
+s1436
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies76c19490265fb741^dba50d92265fb741^---0#1#0#--18"Check dependencies36"A87DBE5C-3E79-4B0A-94A7-A3630DDADEFA-
+
+CCodeSign /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app
+s392111766.641697
+e392111767.378482
+r1
+xCodeSign
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"CodeSign build/Release-iphoneos/MobileAppGenerator.appe961a496265fb741^86e46097265fb741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/0000000000000000^920"CodeSign build/Release-iphoneos/MobileAppGenerator.app    cd /Users/pst/src/MobileAppGenerator    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /usr/bin/codesign --force --sign adc9ff1fce612c5ec1a42478b729fc365a047768 --resource-rules=/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/ResourceRules.plist --entitlements /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator.xcent /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app36"C4E0316C-3D9C-4B10-9E3E-67D84CF2106D-
+
+CCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/AppDelegate.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392111762.150174
+e392111763.549591
+r1
+xCompileC
+xbuild/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/AppDelegate.o
+x/Users/pst/src/MobileAppGenerator/MobileAppGenerator/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/pst/src/MobileAppGenerator/MobileAppGenerator/AppDelegate.m45a02692265fb741^5dbf8c93265fb741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/AppDelegate.m0000000000000000^3639"CompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/AppDelegate.o MobileAppGenerator/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pst/src/MobileAppGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-generated-files.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-own-target-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-all-target-headers.hmap -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-project-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources/armv7 -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources -F/Users/pst/src/MobileAppGenerator/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-ayariudscojbnydcrkzlatdfvabu/MobileAppGenerator-Prefix.pch -MMD -MT dependencies -MF /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/AppDelegate.dia -c /Users/pst/src/MobileAppGenerator/MobileAppGenerator/AppDelegate.m -o /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/AppDelegate.o36"F72A661C-94BA-44A2-993F-477CBC58D974-
+
+CCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/GeolocalisationServiceViewController.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/GeolocalisationServiceViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392111763.550698
+e392111763.958795
+r1
+xCompileC
+xbuild/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/GeolocalisationServiceViewController.o
+x/Users/pst/src/MobileAppGenerator/MobileAppGenerator/GeolocalisationServiceViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/pst/src/MobileAppGenerator/MobileAppGenerator/GeolocalisationServiceViewController.m9f1c8d93265fb741^7a72f593265fb741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/GeolocalisationServiceViewController.m0000000000000000^3789"CompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/GeolocalisationServiceViewController.o MobileAppGenerator/GeolocalisationServiceViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pst/src/MobileAppGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-generated-files.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-own-target-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-all-target-headers.hmap -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-project-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources/armv7 -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources -F/Users/pst/src/MobileAppGenerator/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-ayariudscojbnydcrkzlatdfvabu/MobileAppGenerator-Prefix.pch -MMD -MT dependencies -MF /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/GeolocalisationServiceViewController.d --serialize-diagnostics /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/GeolocalisationServiceViewController.dia -c /Users/pst/src/MobileAppGenerator/MobileAppGenerator/GeolocalisationServiceViewController.m -o /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/GeolocalisationServiceViewController.o36"B463E969-6EC6-4252-AA8E-6FDEE692AA41-
+
+CCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/HomeViewController.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/HomeViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392111763.550087
+e392111763.861931
+r1
+xCompileC
+xbuild/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/HomeViewController.o
+x/Users/pst/src/MobileAppGenerator/MobileAppGenerator/HomeViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/pst/src/MobileAppGenerator/MobileAppGenerator/HomeViewController.m1af98c93265fb741^564adf93265fb741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/HomeViewController.m0000000000000000^3681"CompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/HomeViewController.o MobileAppGenerator/HomeViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pst/src/MobileAppGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-generated-files.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-own-target-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-all-target-headers.hmap -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-project-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources/armv7 -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources -F/Users/pst/src/MobileAppGenerator/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-ayariudscojbnydcrkzlatdfvabu/MobileAppGenerator-Prefix.pch -MMD -MT dependencies -MF /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/HomeViewController.d --serialize-diagnostics /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/HomeViewController.dia -c /Users/pst/src/MobileAppGenerator/MobileAppGenerator/HomeViewController.m -o /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/HomeViewController.o36"C133CC9A-A638-4FEC-8C92-22867EF8A58D-
+
+CCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/PListManager.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/PListManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392111763.873249
+e392111764.002736
+r1
+xCompileC
+xbuild/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/PListManager.o
+x/Users/pst/src/MobileAppGenerator/MobileAppGenerator/PListManager.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/pst/src/MobileAppGenerator/MobileAppGenerator/PListManager.m4ab5df93265fb741^dac50094265fb741^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/PListManager.m0000000000000000^3645"CompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/PListManager.o MobileAppGenerator/PListManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pst/src/MobileAppGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-generated-files.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-own-target-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-all-target-headers.hmap -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-project-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources/armv7 -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources -F/Users/pst/src/MobileAppGenerator/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-ayariudscojbnydcrkzlatdfvabu/MobileAppGenerator-Prefix.pch -MMD -MT dependencies -MF /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/PListManager.d --serialize-diagnostics /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/PListManager.dia -c /Users/pst/src/MobileAppGenerator/MobileAppGenerator/PListManager.m -o /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/PListManager.o36"E2A7C147-6F93-4603-B584-2DF65F962F28-
+
+CCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/main.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392111762.143141
+e392111763.548814
+r1
+xCompileC
+xbuild/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/main.o
+x/Users/pst/src/MobileAppGenerator/MobileAppGenerator/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/pst/src/MobileAppGenerator/MobileAppGenerator/main.m51dd2492265fb741^9f918c93265fb741^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/main.m0000000000000000^3597"CompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/main.o MobileAppGenerator/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pst/src/MobileAppGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-generated-files.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-own-target-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-all-target-headers.hmap -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-project-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources/armv7 -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources -F/Users/pst/src/MobileAppGenerator/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-ayariudscojbnydcrkzlatdfvabu/MobileAppGenerator-Prefix.pch -MMD -MT dependencies -MF /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/main.dia -c /Users/pst/src/MobileAppGenerator/MobileAppGenerator/main.m -o /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/main.o36"0DA8253B-65CD-4869-B559-C61D0E745DA0-
+
+CCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/AppDelegate.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392111764.004277
+e392111764.281190
+r1
+xCompileC
+xbuild/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/pst/src/MobileAppGenerator/MobileAppGenerator/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/pst/src/MobileAppGenerator/MobileAppGenerator/AppDelegate.m74450194265fb741^e00e4894265fb741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/AppDelegate.m0000000000000000^3646"CompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/AppDelegate.o MobileAppGenerator/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pst/src/MobileAppGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-generated-files.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-own-target-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-all-target-headers.hmap -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-project-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources/armv7s -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources -F/Users/pst/src/MobileAppGenerator/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-aaoecoeemhhborajsdzvjsvylmon/MobileAppGenerator-Prefix.pch -MMD -MT dependencies -MF /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/pst/src/MobileAppGenerator/MobileAppGenerator/AppDelegate.m -o /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/AppDelegate.o36"397A74B3-38EF-4859-85F3-A98980AB203A-
+
+CCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/GeolocalisationServiceViewController.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/GeolocalisationServiceViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392111764.403464
+e392111764.553326
+r1
+xCompileC
+xbuild/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/GeolocalisationServiceViewController.o
+x/Users/pst/src/MobileAppGenerator/MobileAppGenerator/GeolocalisationServiceViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/pst/src/MobileAppGenerator/MobileAppGenerator/GeolocalisationServiceViewController.m1e6e6794265fb741^f8a68d94265fb741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/GeolocalisationServiceViewController.m0000000000000000^3796"CompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/GeolocalisationServiceViewController.o MobileAppGenerator/GeolocalisationServiceViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pst/src/MobileAppGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-generated-files.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-own-target-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-all-target-headers.hmap -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-project-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources/armv7s -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources -F/Users/pst/src/MobileAppGenerator/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-aaoecoeemhhborajsdzvjsvylmon/MobileAppGenerator-Prefix.pch -MMD -MT dependencies -MF /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/GeolocalisationServiceViewController.d --serialize-diagnostics /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/GeolocalisationServiceViewController.dia -c /Users/pst/src/MobileAppGenerator/MobileAppGenerator/GeolocalisationServiceViewController.m -o /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/GeolocalisationServiceViewController.o36"FB2C7170-4E3A-46C9-B145-32CD56F91111-
+
+CCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/HomeViewController.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/HomeViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392111764.282444
+e392111764.402133
+r1
+xCompileC
+xbuild/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/HomeViewController.o
+x/Users/pst/src/MobileAppGenerator/MobileAppGenerator/HomeViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/pst/src/MobileAppGenerator/MobileAppGenerator/HomeViewController.ma3794894265fb741^ccf16694265fb741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/HomeViewController.m0000000000000000^3688"CompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/HomeViewController.o MobileAppGenerator/HomeViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pst/src/MobileAppGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-generated-files.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-own-target-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-all-target-headers.hmap -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-project-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources/armv7s -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources -F/Users/pst/src/MobileAppGenerator/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-aaoecoeemhhborajsdzvjsvylmon/MobileAppGenerator-Prefix.pch -MMD -MT dependencies -MF /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/HomeViewController.d --serialize-diagnostics /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/HomeViewController.dia -c /Users/pst/src/MobileAppGenerator/MobileAppGenerator/HomeViewController.m -o /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/HomeViewController.o36"FDC34AB9-46E9-4F43-8706-C5E6E463D3CE-
+
+CCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/PListManager.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/PListManager.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392111764.554715
+e392111764.613697
+r1
+xCompileC
+xbuild/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/PListManager.o
+x/Users/pst/src/MobileAppGenerator/MobileAppGenerator/PListManager.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/pst/src/MobileAppGenerator/MobileAppGenerator/PListManager.m72358e94265fb741^a81a9d94265fb741^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/PListManager.m0000000000000000^3652"CompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/PListManager.o MobileAppGenerator/PListManager.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pst/src/MobileAppGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-generated-files.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-own-target-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-all-target-headers.hmap -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-project-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources/armv7s -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources -F/Users/pst/src/MobileAppGenerator/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-aaoecoeemhhborajsdzvjsvylmon/MobileAppGenerator-Prefix.pch -MMD -MT dependencies -MF /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/PListManager.d --serialize-diagnostics /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/PListManager.dia -c /Users/pst/src/MobileAppGenerator/MobileAppGenerator/PListManager.m -o /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/PListManager.o36"983CF34A-FF4F-4CE7-8FE0-1170DFDD90CB-
+
+CCompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/main.o /Users/pst/src/MobileAppGenerator/MobileAppGenerator/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392111763.960240
+e392111764.178918
+r1
+xCompileC
+xbuild/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/main.o
+x/Users/pst/src/MobileAppGenerator/MobileAppGenerator/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/pst/src/MobileAppGenerator/MobileAppGenerator/main.mf0f9f593265fb741^1add2d94265fb741^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/main.m0000000000000000^3604"CompileC build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/main.o MobileAppGenerator/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pst/src/MobileAppGenerator    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-generated-files.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-own-target-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-all-target-headers.hmap -iquote /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator-project-headers.hmap -I/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources/armv7s -I/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/DerivedSources -F/Users/pst/src/MobileAppGenerator/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-aaoecoeemhhborajsdzvjsvylmon/MobileAppGenerator-Prefix.pch -MMD -MT dependencies -MF /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/main.dia -c /Users/pst/src/MobileAppGenerator/MobileAppGenerator/main.m -o /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/main.o36"86EBDA5C-968A-4627-A7E8-3451495B6D5E-
+
+CCompileStoryboard /Users/pst/src/MobileAppGenerator/MobileAppGenerator/en.lproj/MainStoryboard.storyboard
+s392111766.079460
+e392111766.573488
+r1
+xCompileStoryboard
+x/Users/pst/src/MobileAppGenerator/MobileAppGenerator/en.lproj/MainStoryboard.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"CompileStoryboard MobileAppGenerator/en.lproj/MainStoryboard.storyboard82711496265fb741^aed59296265fb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/en.lproj/MainStoryboard.storyboard0000000000000000^969"CompileStoryboard MobileAppGenerator/en.lproj/MainStoryboard.storyboard    cd /Users/pst/src/MobileAppGenerator    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/en.lproj/MainStoryboard.storyboardc /Users/pst/src/MobileAppGenerator/MobileAppGenerator/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"2A7089B9-E267-4C72-84F2-FFE896165D63-
+
+CCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default-568h@2x.png MobileAppGenerator/Default-568h@2x.png
+s392111766.028999
+e392111766.163213
+r1
+xCopyPNGFile
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default-568h@2x.png
+xMobileAppGenerator/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"CopyPNGFile build/Release-iphoneos/MobileAppGenerator.app/Default-568h@2x.png MobileAppGenerator/Default-568h@2x.png7b870796265fb741^80d52996265fb741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/Default-568h@2x.png0000000000000000^719"CopyPNGFile "build/Release-iphoneos/MobileAppGenerator.app/Default-568h@2x.png" "MobileAppGenerator/Default-568h@2x.png"    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/pst/src/MobileAppGenerator/MobileAppGenerator/Default-568h@2x.png" "/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default-568h@2x.png"36"E3E4D0B5-877B-4E72-BFE9-5B12233D0797-
+
+CCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default.png MobileAppGenerator/Default.png
+s392111765.630223
+e392111766.027779
+r1
+xCopyPNGFile
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default.png
+xMobileAppGenerator/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile build/Release-iphoneos/MobileAppGenerator.app/Default.png MobileAppGenerator/Default.pngba6ba195265fb741^aa2b0796265fb741^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/Default.png0000000000000000^679"CopyPNGFile build/Release-iphoneos/MobileAppGenerator.app/Default.png MobileAppGenerator/Default.png    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/pst/src/MobileAppGenerator/MobileAppGenerator/Default.png /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default.png36"83874FFA-AA8E-44E0-A3CE-D0E52FB00071-
+
+CCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default@2x.png MobileAppGenerator/Default@2x.png
+s392111765.688068
+e392111766.078231
+r1
+xCopyPNGFile
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default@2x.png
+xMobileAppGenerator/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile build/Release-iphoneos/MobileAppGenerator.app/Default@2x.png MobileAppGenerator/Default@2x.png6b48b095265fb741^8b161496265fb741^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/Default@2x.png0000000000000000^699"CopyPNGFile "build/Release-iphoneos/MobileAppGenerator.app/Default@2x.png" "MobileAppGenerator/Default@2x.png"    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/pst/src/MobileAppGenerator/MobileAppGenerator/Default@2x.png" "/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Default@2x.png"36"E7C294B1-E48F-4AF3-BE51-574DB2C38105-
+
+CCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/enterprise.png enterprise.png
+s392111766.406473
+e392111766.476637
+r1
+xCopyPNGFile
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/enterprise.png
+xenterprise.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"CopyPNGFile build/Release-iphoneos/MobileAppGenerator.app/enterprise.png enterprise.pnge1256896265fb741^7d1f7a96265fb741^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Users/pst/src/MobileAppGenerator/enterprise.png0000000000000000^653"CopyPNGFile build/Release-iphoneos/MobileAppGenerator.app/enterprise.png enterprise.png    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/pst/src/MobileAppGenerator/enterprise.png /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/enterprise.png36"ED282313-2D9B-4F6E-8FFB-0B25153FE466-
+
+CCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/first.png MobileAppGenerator/first.png
+s392111766.164438
+e392111766.265060
+r1
+xCopyPNGFile
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/first.png
+xMobileAppGenerator/first.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile build/Release-iphoneos/MobileAppGenerator.app/first.png MobileAppGenerator/first.png0e312a96265fb741^fef04396265fb741^-142"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.-0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/first.png0000000000000000^671"CopyPNGFile build/Release-iphoneos/MobileAppGenerator.app/first.png MobileAppGenerator/first.png    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/pst/src/MobileAppGenerator/MobileAppGenerator/first.png /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/first.png36"8A40725E-4F6E-454B-8C71-30F6CE554005-
+
+CCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/first@2x.png MobileAppGenerator/first@2x.png
+s392111766.266356
+e392111766.305112
+r1
+xCopyPNGFile
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/first@2x.png
+xMobileAppGenerator/first@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile build/Release-iphoneos/MobileAppGenerator.app/first@2x.png MobileAppGenerator/first@2x.png304a4496265fb741^5d324e96265fb741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/first@2x.png0000000000000000^691"CopyPNGFile "build/Release-iphoneos/MobileAppGenerator.app/first@2x.png" "MobileAppGenerator/first@2x.png"    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/pst/src/MobileAppGenerator/MobileAppGenerator/first@2x.png" "/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/first@2x.png"36"DD00CA1C-4EF6-423A-9421-4034EBD96B6E-
+
+CCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/second.png MobileAppGenerator/second.png
+s392111766.306383
+e392111766.357039
+r1
+xCopyPNGFile
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/second.png
+xMobileAppGenerator/second.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/Release-iphoneos/MobileAppGenerator.app/second.png MobileAppGenerator/second.png7b884e96265fb741^ed805b96265fb741^-142"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.-0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/second.png0000000000000000^675"CopyPNGFile build/Release-iphoneos/MobileAppGenerator.app/second.png MobileAppGenerator/second.png    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/pst/src/MobileAppGenerator/MobileAppGenerator/second.png /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/second.png36"DA497226-9B91-4070-BDB6-4466B8B46A79-
+
+CCopyPNGFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/second@2x.png MobileAppGenerator/second@2x.png
+s392111766.362303
+e392111766.401699
+r1
+xCopyPNGFile
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/second@2x.png
+xMobileAppGenerator/second@2x.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile build/Release-iphoneos/MobileAppGenerator.app/second@2x.png MobileAppGenerator/second@2x.pngcadc5c96265fb741^bada6696265fb741^-142"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.-0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/second@2x.png0000000000000000^695"CopyPNGFile "build/Release-iphoneos/MobileAppGenerator.app/second@2x.png" "MobileAppGenerator/second@2x.png"    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/pst/src/MobileAppGenerator/MobileAppGenerator/second@2x.png" "/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/second@2x.png"36"F11CDD04-8E39-41DE-AEDC-35130C9AC465-
+
+CCopyPlistFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/data.plist MobileAppGenerator/data.plist
+s392111766.486132
+e392111766.489466
+r1
+xCopyPlistFile
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/data.plist
+xMobileAppGenerator/data.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Copy MobileAppGenerator/data.plist0c907c96265fb741^26577d96265fb741^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/data.plist0000000000000000^570"CopyPlistFile build/Release-iphoneos/MobileAppGenerator.app/data.plist MobileAppGenerator/data.plist    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    builtin-copyPlist --convert binary1 --outdir /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app -- MobileAppGenerator/data.plist36"48BAC7BF-14B1-47EE-928E-24E377BA6EF5-
+
+CCopyStringsFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/en.lproj/InfoPlist.strings MobileAppGenerator/en.lproj/InfoPlist.strings
+s392111765.629639
+e392111765.686558
+r1
+xCopyStringsFile
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/en.lproj/InfoPlist.strings
+xMobileAppGenerator/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy MobileAppGenerator/en.lproj/InfoPlist.strings5d4ea195265fb741^cfdcaf95265fb741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/en.lproj/InfoPlist.strings0000000000000000^670"CopyStringsFile build/Release-iphoneos/MobileAppGenerator.app/en.lproj/InfoPlist.strings MobileAppGenerator/en.lproj/InfoPlist.strings    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/en.lproj -- MobileAppGenerator/en.lproj/InfoPlist.strings36"5D156155-606C-4C98-A234-B24DF55F1BFB-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/MobileAppGenerator.app/ResourceRules.plist
+s392111762.094824
+e392111762.127428
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/MobileAppGenerator.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Release-iphoneos/MobileAppGenerator.app/ResourceRules.plista2621892265fb741^b4af2092265fb741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/ResourceRules.plist000000000080d041^946"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/MobileAppGenerator.app/ResourceRules.plist    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app36"2BC2DB02-4049-4B98-A70A-017857A04F79-
+
+CCpResource contact.ico build/Release-iphoneos/MobileAppGenerator.app/contact.ico
+s392111766.477875
+e392111766.480737
+r1
+xCpResource
+xcontact.ico
+xbuild/Release-iphoneos/MobileAppGenerator.app/contact.ico
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Release-iphoneos/MobileAppGenerator.app/contact.icoca6e7a96265fb741^ac1f7b96265fb741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/contact.ico000000000080d041^752"CpResource contact.ico build/Release-iphoneos/MobileAppGenerator.app/contact.ico    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/pst/src/MobileAppGenerator/contact.ico /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app36"EB4C0534-861A-4AEF-A371-78B2F9506DFF-
+
+CCpResource home.ico build/Release-iphoneos/MobileAppGenerator.app/home.ico
+s392111766.481997
+e392111766.484858
+r1
+xCpResource
+xhome.ico
+xbuild/Release-iphoneos/MobileAppGenerator.app/home.ico
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Release-iphoneos/MobileAppGenerator.app/home.ico637d7b96265fb741^f52c7c96265fb741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/home.ico000000000080d041^743"CpResource home.ico build/Release-iphoneos/MobileAppGenerator.app/home.ico    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/pst/src/MobileAppGenerator/home.ico /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app36"2C93A702-A964-41D0-B150-0DB82CBE0CE0-
+
+CCpResource service.ico build/Release-iphoneos/MobileAppGenerator.app/service.ico
+s392111766.402989
+e392111766.405266
+r1
+xCpResource
+xservice.ico
+xbuild/Release-iphoneos/MobileAppGenerator.app/service.ico
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Release-iphoneos/MobileAppGenerator.app/service.ico78426796265fb741^a5bf6796265fb741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/service.ico000000000080d041^752"CpResource service.ico build/Release-iphoneos/MobileAppGenerator.app/service.ico    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/pst/src/MobileAppGenerator/service.ico /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app36"897B0069-927E-45E5-A608-5834C345F2E9-
+
+CCreateUniversalBinary /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/MobileAppGenerator normal "armv7 armv7s"
+s392111765.514073
+e392111765.569521
+r1
+xCreateUniversalBinary
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/MobileAppGenerator
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Create universal binary /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/MobileAppGenerator193c8895265fb741^d5cd9195265fb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/MobileAppGenerator000000000080d041^835"CreateUniversalBinary build/Release-iphoneos/MobileAppGenerator.app/MobileAppGenerator normal "armv7 armv7s"    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    lipo -create /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/MobileAppGenerator /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/MobileAppGenerator -output /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/MobileAppGenerator36"A75EB1F7-5B6B-48D1-802A-99A70A5CA8CD-
+
+CGenerateDSYMFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app.dSYM /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/MobileAppGenerator
+s392111765.576544
+e392111765.621385
+r1
+xGenerateDSYMFile
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app.dSYM
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/MobileAppGenerator
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Generate /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app.dSYM1bbc9395265fb741^0a129f95265fb741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app.dSYM000000000080d041^727"GenerateDSYMFile build/Release-iphoneos/MobileAppGenerator.app.dSYM build/Release-iphoneos/MobileAppGenerator.app/MobileAppGenerator    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/MobileAppGenerator -o /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app.dSYM36"A709A961-54BB-4CC2-903F-A3C50DC36A5E-
+
+CLd /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/MobileAppGenerator normal armv7
+s392111764.180206
+e392111765.507534
+r1
+xLd
+x/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/MobileAppGenerator
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Link /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/MobileAppGenerator4e412e94265fb741^9eed8195265fb741^---0#0#0#--1288"Ld build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/MobileAppGenerator normal armv7    cd /Users/pst/src/MobileAppGenerator    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/pst/src/MobileAppGenerator/build/Release-iphoneos -F/Users/pst/src/MobileAppGenerator/build/Release-iphoneos -filelist /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/MobileAppGenerator.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework MapKit -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7/MobileAppGenerator36"7AEAAED2-4B77-4CC1-9F1D-182871A37222-
+
+CLd /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/MobileAppGenerator normal armv7s
+s392111764.620589
+e392111765.496487
+r1
+xLd
+x/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/MobileAppGenerator
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection152"Link /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/MobileAppGeneratorf7029f94265fb741^3f197f95265fb741^---0#0#0#--1293"Ld build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/MobileAppGenerator normal armv7s    cd /Users/pst/src/MobileAppGenerator    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/pst/src/MobileAppGenerator/build/Release-iphoneos -F/Users/pst/src/MobileAppGenerator/build/Release-iphoneos -filelist /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/MobileAppGenerator.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework MapKit -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/Objects-normal/armv7s/MobileAppGenerator36"53E5524C-2A37-4DF9-AA2F-6F3CA7BA3796-
+
+CProcessInfoPlistFile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Info.plist MobileAppGenerator/MobileAppGenerator-Info.plist
+s392111762.093848
+e392111762.127975
+r1
+xProcessInfoPlistFile
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Info.plist
+xMobileAppGenerator/MobileAppGenerator-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Process MobileAppGenerator/MobileAppGenerator-Info.plistdc2e1892265fb741^eed02092265fb741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/pst/src/MobileAppGenerator/MobileAppGenerator/MobileAppGenerator-Info.plist0000000000000000^880"ProcessInfoPlistFile build/Release-iphoneos/MobileAppGenerator.app/Info.plist MobileAppGenerator/MobileAppGenerator-Info.plist    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    builtin-infoPlistUtility MobileAppGenerator/MobileAppGenerator-Info.plist -genpkginfo /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/ResourceRules.plist -o /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/Info.plist36"6D8B1866-F3D1-437A-8B71-A2C33DFD38F8-
+
+CProcessPCH /var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-aaoecoeemhhborajsdzvjsvylmon/MobileAppGenerator-Prefix.pch.pth MobileAppGenerator/MobileAppGenerator-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/1g/7jybpkns2f1b1nvjvdw9vqmc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MobileAppGenerator-Prefix-ayariudscojbnydcrkzlatdfvabu/MobileAppGenerator-Prefix.pch.pth MobileAppGenerator/MobileAppGenerator-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging "/Users/pst/Library/MobileDevice/Provisioning Profiles/15349611-F767-4C73-B6CC-ECC0486F711D.mobileprovision" /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/embedded.mobileprovision
+s392111766.593941
+e392111766.597931
+r1
+xProcessProductPackaging
+x/Users/pst/Library/MobileDevice/Provisioning Profiles/15349611-F767-4C73-B6CC-ECC0486F711D.mobileprovision
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection203"ProcessProductPackaging "/Users/pst/Library/MobileDevice/Provisioning Profiles/15349611-F767-4C73-B6CC-ECC0486F711D.mobileprovision" build/Release-iphoneos/MobileAppGenerator.app/embedded.mobileprovision132a9896265fb741^b41f9996265fb741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/embedded.mobileprovision0000000000000000^764"ProcessProductPackaging "/Users/pst/Library/MobileDevice/Provisioning Profiles/15349611-F767-4C73-B6CC-ECC0486F711D.mobileprovision" build/Release-iphoneos/MobileAppGenerator.app/embedded.mobileprovision    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    builtin-productPackagingUtility "/Users/pst/Library/MobileDevice/Provisioning Profiles/15349611-F767-4C73-B6CC-ECC0486F711D.mobileprovision" -o /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/embedded.mobileprovision36"63EC9344-5D83-4F5D-A985-8154ECF4DCB5-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator.xcent
+s392111766.629813
+e392111766.633618
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection242"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator.xcent1058a196265fb741^1842a296265fb741^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator.xcent000000000080d041^868"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator.xcent    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/pst/src/MobileAppGenerator/build/MobileAppGenerator.build/Release-iphoneos/MobileAppGenerator.build/MobileAppGenerator.xcent36"C827C51E-DECD-4D3A-87A6-70D170CCFE21-
+
+CTouch /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app
+s392111766.605994
+e392111766.621760
+r1
+xTouch
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Touch /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app423f9b96265fb741^b43c9f96265fb741^---0#0#0#--461"Touch build/Release-iphoneos/MobileAppGenerator.app    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app36"6FB434AD-6302-4070-BCB5-CBDDF88A32D7-
+
+CValidate /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app
+s392111767.386643
+e392111768.544959
+r1
+xValidate
+x/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Validate build/Release-iphoneos/MobileAppGenerator.app2a1e6397265fb741^97908b98265fb741^-255"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)1(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57392111768#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--0#0#0#-19%DVTDocumentLocation4@96"file://localhost/Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app/0000000000000000^605"Validate build/Release-iphoneos/MobileAppGenerator.app    cd /Users/pst/src/MobileAppGenerator    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/pst/src/MobileAppGenerator/build/Release-iphoneos/MobileAppGenerator.app36"0C972C1C-9F47-4675-83B1-04869ED2A614-
+
